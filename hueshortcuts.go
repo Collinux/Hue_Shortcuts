@@ -1,14 +1,12 @@
 /*
+*
 * hueshortcuts.go
-* Uses a Philips Hue go library to enable command
-* line shortcuts for light functions.
-* Copyright (C) 2016 Collin Guarino (Collinux) collin.guarino@gmail.com
-* License: GPL version 2 or higher http://www.gnu.org/licenses/gpl.html
+* Uses a Philips Hue go library to enable command shortcuts for light functions.
+*
+* Examples: go run hueshortcuts.go all_on
+*           go run hueshortcuts.go all_off
+*           go run hueshortcuts.go writing_code_scene
 */
-// Example: go run hueshortcuts.go all_on
-// Example: go run hueshortcuts.go all_off
-// Example: go run hueshortcuts.go writing_code_scene
-
 
 package main
 
