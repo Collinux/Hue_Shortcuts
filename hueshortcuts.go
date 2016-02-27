@@ -17,11 +17,12 @@ import (
 )
 
 func main() {
-    bridge, _ := hue.NewBridge("192.168.1.128") // Enter your own bridge IP
+    // Enter your own bridge IP or use hue.FindBridge
+    bridge, _ := hue.NewBridge("192.168.1.128")
 
     // Enter your own username token from bridge.Login
     // or see the godoc from https://github.com/Collinux/GoHue for details.
-    bridge.Username = "4v7de8bd6d79f149c8h96e4fc07f"
+    bridge.Username = "427de8bd6d49f149c8398e4fc08f"
 
     lights, _ := bridge.GetAllLights()
     switch os.Args[1] { // Index 0 arg would be the file name
